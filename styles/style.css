@@ -1,3 +1,66 @@
-/* body {
-  background-color: red;
-} */
+/* ================================
+    common styles or utilities
+=================================== */
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* ------------------------
+    header nav bar styles
+--------------------------- */
+.header {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 240px 116px 228px;
+}
+.nav-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  cursor: pointer;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-left: 50px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+  cursor: pointer;
+}
+
+/* ------------------------
+    header banner styles
+--------------------------- */
+.banner {
+  text-align: center;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 64px;
+  color: #131313;
+}
+.banner-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin: 32px;
+}
+.btn-primary {
+  background: #ff900e;
+  border-radius: 8px;
+  height: 64px;
+  padding: 21px 24px 20px 25px;
+  border: 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
