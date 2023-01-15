@@ -265,7 +265,7 @@ nav li .fa-bars {
     footer section styles
 --------------------------- */
 .footer {
-  padding: 130px 240px 216px;
+  padding: 0 240px 216px;
   text-align: center;
 }
 .footer-container {
@@ -428,5 +428,19 @@ nav li .fa-bars {
   .sponsor-logos {
     flex-direction: column;
     row-gap: 24px;
+  }
+
+  /* footer section styles */
+  .footer {
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .footer-container {
+    padding: 10px;
+  }
+  .footer-title {
+    font-weight: 400;
+    font-size: 10px;
+    color: #424242;
   }
 }
