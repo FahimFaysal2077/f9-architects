@@ -273,6 +273,34 @@ nav li .fa-bars {
 }
 
 /* ------------------------
+    contact section styles
+--------------------------- */
+.contact {
+  display: flex;
+  gap: 100px;
+  background: #fff8f3;
+  padding: 130px 200px;
+  margin-bottom: 200px;
+}
+.contact .section-title {
+  text-align: left;
+}
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+}
+input {
+  height: 64px;
+}
+.contact a {
+  text-decoration: none;
+}
+
+/* ------------------------
     footer section styles
 --------------------------- */
 .footer {
@@ -439,6 +467,29 @@ nav li .fa-bars {
   .sponsor-logos {
     flex-direction: column;
     row-gap: 24px;
+  }
+
+  /* contact section styles */
+  .contact {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin: 80px 0 20px 0;
+  }
+  .section-title {
+    margin-bottom: 10px;
+  }
+  .section-description {
+    text-align: justify;
+    padding: 15px;
+  }
+  .contact input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 0 0 0 8px;
+  }
+  .btn-contact {
+    margin: 0%;
   }
 
   /* footer section styles */
