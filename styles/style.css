@@ -285,6 +285,18 @@ nav li .fa-bars {
 .contact .section-title {
   text-align: left;
 }
+.section-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+}
+.section-description {
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
+  text-align: left;
+}
 .contact input[type="text"],
 input[type="email"],
 textarea {
