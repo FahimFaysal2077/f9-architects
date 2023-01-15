@@ -403,6 +403,12 @@ input {
   .feature-info {
     text-align: center;
   }
+  .about-sub-title {
+    padding-top: 15px;
+  }
+  .about-sub-description {
+    padding-bottom: 15px;
+  }
 
   /* features section styles */
   .about-container {
