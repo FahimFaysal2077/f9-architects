@@ -260,6 +260,7 @@ nav li .fa-bars {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
+
 /* ==================
     Media Queries
 ===================== */
@@ -382,8 +383,32 @@ nav li .fa-bars {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
   }
   .fact-rating-box {
     margin-bottom: 40px;
+  }
+
+  /* sponsors section styles */
+  .sponsors {
+    padding: 0;
+  }
+  .sponsors-container {
+    text-align: center;
+  }
+  .sponsor-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+  }
+  .sponsor-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+  }
+  .sponsor-logos {
+    flex-direction: column;
+    row-gap: 24px;
   }
 }
