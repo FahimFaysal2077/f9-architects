@@ -184,4 +184,15 @@ nav li .fa-bars {
     width: 100%;
     margin: 0%;
   }
+
+  /* ------------------------
+    features section styles
+--------------------------- */
+  .features-container {
+    flex-direction: column;
+    padding: 17px;
+  }
+  .feature-images {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
