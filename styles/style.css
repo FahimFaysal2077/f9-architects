@@ -201,9 +201,6 @@ nav li .fa-bars {
 .facts {
   padding: 0 290px 180px 240px;
 }
-/* .facts-container {
-  border: 2px solid red;
-} */
 .facts-title {
   font-weight: 700;
   font-size: 45px;
@@ -218,7 +215,6 @@ nav li .fa-bars {
 .facts-rating {
   display: flex;
   justify-content: space-evenly;
-  grid-column: 20px;
 }
 .fact-rating-box {
   box-sizing: border-box;
@@ -297,9 +293,7 @@ nav li .fa-bars {
     margin: 0%;
   }
 
-  /* ------------------------
-    features section styles
---------------------------- */
+  /* features section styles */
   .features-container {
     flex-direction: column;
     padding: 17px;
@@ -311,9 +305,7 @@ nav li .fa-bars {
     text-align: center;
   }
 
-  /* ------------------------
-    features section styles
---------------------------- */
+  /* features section styles */
   .about-container {
     flex-direction: column;
     text-align: center;
@@ -335,7 +327,7 @@ nav li .fa-bars {
     margin: 0;
   }
   .btn-about {
-    margin-top: 10px;
+    margin: 10px 0 60px 0;
     border-radius: 8px;
     padding: 10px;
     font-weight: 500;
@@ -347,5 +339,21 @@ nav li .fa-bars {
   .btn-about-size {
     font-weight: 400;
     font-size: 15px;
+  }
+  /* facts section styles */
+  .facts {
+    padding: 10px;
+    text-align: center;
+  }
+  .facts-description {
+    margin-bottom: 30px;
+  }
+  .facts-rating {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fact-rating-box {
+    margin-bottom: 40px;
   }
 }
