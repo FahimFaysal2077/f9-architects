@@ -5,6 +5,18 @@
   margin: 0;
   font-family: "Work Sans", sans-serif;
 }
+.btn-primary {
+  background: #ff900e;
+  border-radius: 8px;
+  height: 64px;
+  padding: 21px 24px 20px 25px;
+  border: 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
 
 /* ======================
     All section styles
@@ -60,17 +72,54 @@ nav li .fa-bars {
   color: #727272;
   margin: 32px;
 }
-.btn-primary {
-  background: #ff900e;
-  border-radius: 8px;
-  height: 64px;
-  padding: 21px 24px 20px 25px;
-  border: 0;
-  font-weight: 600;
-  font-size: 20px;
-  color: #ffffff;
-  margin-bottom: 50px;
-  cursor: pointer;
+.img-width img {
+  margin-bottom: 45px;
+}
+/* ------------------------
+    main section styles
+--------------------------- */
+
+/* ------------------------
+    features section styles
+--------------------------- */
+.features {
+  background: #ffffff;
+}
+.features-container {
+  border-radius: 10px;
+  padding: 85px 301px 130px;
+}
+.features-container {
+  display: flex;
+  column-gap: 73px;
+  align-items: center;
+}
+.feature-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.feature-info {
+  text-align: left;
+}
+.feature-title {
+  font-weight: 500;
+  font-size: 45px;
+  color: #727272;
+}
+.feature-title-color1 {
+  font-weight: 700;
+  color: #131313;
+}
+.feature-title-color2 {
+  font-weight: 700;
+  color: #ff900e;
+}
+.feature-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin: 24px 0 32px 0;
 }
 
 /* ==================
@@ -124,8 +173,6 @@ nav li .fa-bars {
     display: block;
   }
   /* header banner styles */
-  .banner {
-  }
   .banner-title {
     font-size: 34px;
     margin-top: 80px;
