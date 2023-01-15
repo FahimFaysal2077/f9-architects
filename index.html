@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>F9 Architects</title>
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/bfc289a367.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,12 +25,16 @@
     <header class="header">
       <nav>
         <h3 class="nav-title">F9 Architects</h3>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact Us</li>
-          <li>Login</li>
-        </ul>
+        <li class="bars-icon">
+          <a href=""><i class="fa-solid fa-bars"></i></a>
+
+          <ul class="dropdown">
+            <li class="route">Home</li>
+            <li class="route">About</li>
+            <li class="route">Contact Us</li>
+            <li class="route">Login</li>
+          </ul>
+        </li>
       </nav>
       <!-- header banner -->
       <div class="banner">
@@ -40,7 +49,7 @@
           even
         </p>
         <button class="btn-primary">Explore More</button>
-        <div>
+        <div class="img-width">
           <img src="images/banner.png" alt="" />
         </div>
       </div>

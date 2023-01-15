@@ -1,10 +1,14 @@
 /* ================================
-    common styles or utilities
+    Common styles or Utilities
 =================================== */
 * {
   margin: 0;
   font-family: "Work Sans", sans-serif;
 }
+
+/* ======================
+    All section styles
+========================= */
 
 /* ------------------------
     header nav bar styles
@@ -35,6 +39,9 @@ nav li {
   color: #424242;
   cursor: pointer;
 }
+nav li .fa-bars {
+  display: none;
+}
 
 /* ------------------------
     header banner styles
@@ -64,4 +71,70 @@ nav li {
   color: #ffffff;
   margin-bottom: 50px;
   cursor: pointer;
+}
+
+/* ==================
+    Media Queries
+===================== */
+
+/* ------------------
+    Mobile Devices
+--------------------- */
+@media only screen and (max-width: 576px) {
+  /* Common styles or Utilities */
+  body {
+    margin: 0%;
+  }
+  /* header nav bar styles */
+  nav {
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+  }
+  .nav-title {
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .bars-icon a {
+    text-decoration: none;
+  }
+  .dropdown > li {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  nav li {
+    margin: 0;
+    padding: 2px;
+  }
+
+  /* Nested nav menu */
+
+  nav ul {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  nav li:hover > .dropdown {
+    display: block;
+  }
+
+  nav li .fa-bars {
+    display: block;
+  }
+  /* header banner styles */
+  .banner {
+  }
+  .banner-title {
+    font-size: 34px;
+    margin-top: 80px;
+  }
+  .img-width {
+    padding: 0 32px 32px;
+  }
+  .img-width img {
+    width: 100%;
+    margin: 0%;
+  }
 }
