@@ -230,6 +230,36 @@ nav li .fa-bars {
 .fact-rating-little > h2 {
   margin: 10px 0 5px 0;
 }
+
+/* ------------------------
+    sponsors section styles
+--------------------------- */
+.sponsors {
+  padding: 0 290px 180px 240px;
+}
+.sponsor-info {
+  text-align: center;
+}
+.sponsor-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.sponsor-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin: 24px 0 50px 0;
+}
+.sponsor-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sponsor-logos img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
 /* ==================
     Media Queries
 ===================== */
