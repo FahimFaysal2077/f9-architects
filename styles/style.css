@@ -194,6 +194,46 @@ nav li .fa-bars {
   font-size: 25px;
   color: #ffffff;
 }
+
+/* ------------------------
+    facts section styles
+--------------------------- */
+.facts {
+  padding: 0 290px 180px 240px;
+}
+/* .facts-container {
+  border: 2px solid red;
+} */
+.facts-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.facts-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin: 24px 0 100px 0;
+}
+.facts-rating {
+  display: flex;
+  justify-content: space-evenly;
+  grid-column: 20px;
+}
+.fact-rating-box {
+  box-sizing: border-box;
+  width: 241.83px;
+  height: 241.83px;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  text-align: center;
+}
+.fact-rating-little {
+  padding: 45px 36px 49px 35px;
+}
+.fact-rating-little > h2 {
+  margin: 10px 0 5px 0;
+}
 /* ==================
     Media Queries
 ===================== */
