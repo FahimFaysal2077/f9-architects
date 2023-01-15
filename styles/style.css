@@ -219,10 +219,21 @@ nav li .fa-bars {
 .fact-rating-box {
   box-sizing: border-box;
   width: 241.83px;
-  height: 241.83px;
+  height: 100%;
   border: 1px solid #ff900e;
   border-radius: 8px;
   text-align: center;
+  cursor: pointer;
+}
+.flip-card-inner {
+  transition: transform 0.6s;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(360deg);
+}
+.flip-card-back {
+  transform: rotateY(180deg);
 }
 .fact-rating-little {
   padding: 45px 36px 49px 35px;
